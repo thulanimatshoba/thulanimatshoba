@@ -1,6 +1,7 @@
 {
   "name": "thulanimatshoba/thulanimatshoba",
   "type": "project",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Thulani Matshoba Website with Composer, easier configuration, and an improved folder structure",
   "homepage": "https://thulanimatshoba.co.za",
