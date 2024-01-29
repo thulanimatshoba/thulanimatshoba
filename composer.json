@@ -40,10 +40,11 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-theme/twentytwentythree": "^1.0",
-    "wpackagist-plugin/wordpress-seo": "^20.6",
-    "wpackagist-plugin/kirki": "^4.1",
+    "wpackagist-plugin/wordpress-seo": "^21.0",
+    "wpackagist-plugin/kirki": "^5.0",
     "thulanimatshoba/skinny-ninjah": "dev-develop",
-    "htmlburger/carbon-fields": "^3.6"
+    "htmlburger/carbon-fields": "^3.6",
+    "wpackagist-plugin/ninja-forms": "^3.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

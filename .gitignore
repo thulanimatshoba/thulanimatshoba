@@ -2,7 +2,8 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/themes/*/
+web/app/themes/skinny-ninjah/*
+web/app/themes/twentytwentythree/*
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
