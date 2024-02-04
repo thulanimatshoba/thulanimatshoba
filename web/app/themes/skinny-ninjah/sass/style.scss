@@ -1,0 +1,25 @@
+/*!
+Theme Name: Skinny Ninjah
+Theme URI: https://github.com/thulanimatshoba/skinny-ninjah
+Author: Thulani Matshoba
+Author URI: http://thulanimatshoba.co.za
+Description: This is a Wordpress theme called Skinny Ninjah... fully customisable
+Version: 1.0.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+Text Domain: skinny-ninjah
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+@import "abstracts/abstracts";
+@import "generic/normalize";
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+@import "components/components";
+@import "plugins/jetpack/infinite-scroll";
