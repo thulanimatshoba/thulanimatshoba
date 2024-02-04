@@ -1,0 +1,142 @@
+.main-navigation {
+	display: block;
+
+	ul {
+		list-style: none;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 100%;
+			left: -999em;
+			z-index: 99999;
+			background: $color_primary;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+
+				&:hover > ul,
+				&.focus > ul {
+					display: block;
+					left: auto;
+				}
+			}
+
+			a {
+				width: 200px;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+	li {
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: $color_white;
+
+		&:hover {
+			color: $color_primary !important;
+		}
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current_page_parent > a,
+	.current-menu-ancestor > a {
+		color: $color_primary;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+	}
+
+	.nav-links {
+		display: flex;
+	}
+
+	.nav-previous {
+		flex: 1 0 50%;
+	}
+
+	.nav-next {
+		text-align: end;
+		flex: 1 0 50%;
+	}
+}
+
+.home {
+	.ninjah-menu {
+		ul {
+			li {
+				a {
+					color: $color_white;
+				}
+			}
+		}
+	}
+
+	.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a {
+		color: $color_primary;
+	}
+}
+
+#topcontrol .fa, nav.wcv-dashboard-navigation ul li a {
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px -2px rgba(0,0,0,0.4);
+    color: $color_white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    z-index: 999;
+    background-size: 100% 200% !important;
+    background-image: linear-gradient(to bottom, $color_primary 50%, $color_white 50%) !important;
+}
+
+#topcontrol .fa:hover, nav.wcv-dashboard-navigation ul li a:hover {
+    color: $color_primary;
+    background: $color_primary;
+    background-position: -200% 100% !important;
+    border-radius: 0;
+}
+
+div#topcontrol {
+    z-index: 2;
+}
+

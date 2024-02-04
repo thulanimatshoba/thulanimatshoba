@@ -151,3 +151,6 @@ Config::apply();
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+
+define( 'EMAIL_BANNER_IMAGE_URL', 'http://playground.io/app/uploads/2023/05/logo_dark.png' );
